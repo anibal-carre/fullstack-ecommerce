@@ -1,11 +1,17 @@
-import HeroSection from "../HeroSection";
+import BannerSection from "../BannerSection";
+import Footer from "../Footer";
+import ModelSection from "../ModelsSection";
 import Navbar from "../NavBar";
+import ServicesSection from "../ServicesSection";
 
 const Home = () => {
   return (
-    <div className="w-screen h-screen flex flex-col gap-5">
+    <div className="w-screen h-auto flex flex-col gap-5">
       <Navbar />
-      <HeroSection />
+      <BannerSection />
+      <ModelSection />
+      <ServicesSection />
+      <Footer />
     </div>
   );
 };
