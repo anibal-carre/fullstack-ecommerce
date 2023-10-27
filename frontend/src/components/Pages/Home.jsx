@@ -6,7 +6,7 @@ import ServicesSection from "../ServicesSection";
 
 const Home = () => {
   return (
-    <div className="w-screen h-auto flex flex-col gap-5">
+    <div className="w-[100vw] border h-auto flex flex-col gap-5">
       <Navbar />
       <BannerSection />
       <ModelSection />
